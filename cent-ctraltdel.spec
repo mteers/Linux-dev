@@ -90,38 +90,8 @@ popd
 * Tue Dec 09 2008 beefcake@beef.qt 5.00-4
 - Make suspend work again
 
-* Tue Aug 28 2007 Timothy Bissell <tbissell@us.ibm.com> 5.00-3
-- Updated gettext .pot to specify UTF-8 instead of CHARSET
-
-* Tue Apr 17 2007 Timothy Bissell <tbissell@us.ibm.com> 5.00-2
-- Added NLS data for fr_CA, ja, ko, zh_CN, zh_TW
-
-* Thu Jan 04 2007 beefcake@beef.qt 5.00-1
-- Updated for 2.0
-
-* Wed Apr 19 2006 beefcake@beef.qt 4.00-8
-- Updated schema, so battery suspend does something.
-
-* Tue Jan 10 2006 beefcake@beef.qt 4.00-7
-- Fixed double click on ctrl-alt-del keys.
-
-* Fri Oct 14 2005 beefcake@beef.qt 4.00-6
-- Added Openclient back to gui.
-
 * Tue Oct 11 2005 beefcake@beef.qt 4.00-5
 - Added nls translations.
-
-* Tue Oct 04 2005 beefcake@beef.qt 4.00-4
-- Added nls translations.
-
-* Thu Mar 31 2005 beefcake@beef.qt 4.00-3
-- Changed name suspend - hibernate.
-
-* Thu Mar 03 2005 beefcake@beef.qt 4.00-2
-- Removed suspend addons.
-
-* Wed Feb 02 2005 beefcake@beef.qt 4.00-1
-- Rebuilt for oscent-4.00
 
 * Wed Dec 08 2004 beefcake@beef.qt 1.0-9
 - Added pam links back in.
@@ -131,51 +101,6 @@ popd
 
 * Fri Oct 22 2004 beefcake@beef.qt 1.0-7
 - Added support for custom gnome-panel.
-
-* Thu Oct 21 2004 beefcake@beef.qt 1.0-6
-- Broke out to single installing package.
-
-* Sat Oct 09 2004 beefcake@beef.qt 1.0-5
-- Added triggers to call our schemas.
-
-* Tue Oct 05 2004 beefcake@beef.qt 1.0-4
-- No more replacing schemas, we simply add our own.
-
-* Tue Oct 05 2004 beefcake@beef.qt 1.0-3
-- Rebuild to adhere to new packaging standards 
-
-* Fri Oct 01 2004 beefcake@beef.qt 1.0-2
-- Corrected lock screen, close application
-
-* Thu Sep 29 2004 beefcake@beef.qt 1.0-1
-- Added NLS support, better source.
-
-* Fri Aug 27 2004 beefcake@beef.qt
-- Added pam update.
-
-* Wed Aug 25 2004 beefcake@beef.qt
-- Better gui.
-- Wrong suspend link. 
-
-* Tue Aug 24 2004 beefcake@beef.qt
-- Added suspend to gui (requested by colm)
-
-* Sun Aug 22 2004 beefcake@beef.qt
-- Added proper timer to gui.
-
-* Sat Aug 21 2004 beefcake@beef.qt
-- Added single process start
-- Added timer to stop app after 10 seconds
-
-* Thu Aug 19 2004 beefcake@beef.qt
-- removed nasty redbox
-
-* Wed Aug 18 2004 beefcake@beef.qt
-- Added keybinding to options.
-
-* Tue Aug 03 2004 beefcake@beef.qt
-- Bug in wine/metacity changed keybinding to SHIFT-DEL
-- Added information window for CTRL-ALT-DEL
 
 * Mon Aug 02 2004 beefcake@beef.qt
 - First release
